@@ -63,7 +63,7 @@ jobs:
         id: gen_release_note
         run: |
           cd outputs
-          BASEURL=https://github.com/sakarie9/DOL-CHS-MODS/releases/download/${{ github.ref_name }}
+          BASEURL=https://github.com/tang-bai/DOL-CHS-MODS/releases/download/${{ github.ref_name }}
           md=$(cat << EOF
           ## 原版汉化整合
 
